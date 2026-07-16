@@ -1,0 +1,27 @@
+.static{
+    position: static;
+    background-color:rgb(140, 201, 255);
+    top: 20px;
+}
+.relative{
+    position: relative;
+    background-color:lightblue;
+    top: 20px;
+}
+.parent{
+    position:relative;
+    background-color:lightgreen;
+    top: 20px;
+    margin-top:30px;
+}
+.fixed{
+    position: fixed;
+    background-color:lightcoral;
+    color: white;
+    top:0;
+    width:100%;
+}
+.content{
+    height: 1200px;
+    margin-top: 40px;
+}

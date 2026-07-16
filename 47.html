@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: blueviolet;
+
+                animation-name: move;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 1s;
+                animation-direction: alternate;
+                animation-fill-mode: forwards;
+                animation-play-state: running;
+            }
+            @keyframes move{
+                from{
+                    margin-left: 0;
+                }
+                to{
+                    margin-left: 400px;
+                    background-color: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

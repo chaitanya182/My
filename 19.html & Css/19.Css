@@ -1,0 +1,17 @@
+
+ html, body { height: 100%; margin: 0; }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        .rounded {
+            display: inline-block;
+            padding: 20px 30px;
+            border: 2px solid #333;
+            border-radius: 16px;
+            background: lightgreen;
+            text-align: center;
+        }

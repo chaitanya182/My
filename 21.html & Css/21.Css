@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 100px;
+    background-color: lightskyblue;
+    border: solid 3px green;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+}

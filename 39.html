@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Rows Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 700px;
+        }
+
+        .box {
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box1 {
+            background-color: tomato;
+        }
+
+        .box2 {
+            background-color: steelblue;
+        }
+
+        .box3 {
+            background-color: mediumseagreen;
+        }
+
+        .box4 {
+            background-color: orange;
+        }
+
+        .box5 {
+            background-color: purple;
+        }
+
+        .box6 {
+            background-color: brown;
+        }
+
+        .span-2 {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Two Rows Grid</h2>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2 span-2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+    </div>
+</body>
+
+</html>

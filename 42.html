@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Row span 2 (42.html)</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 88px 250px 88px;
+            gap: 10px;
+            max-width: 720px;
+            margin: 20px auto;
+        }
+
+        .cell {
+            padding: 16px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px
+        }
+
+        .a {
+            background: #ff7043
+        }
+
+        .b {
+            background: #42a5f5
+        }
+
+        .c {
+            background: #66bb6a
+        }
+
+        .d {
+            background: #ab47bc
+        }
+
+        .e {
+            background: #ffa000
+        }
+
+        .f {
+            background: #8d6e63
+        }
+
+        /* this box will span 2 rows */
+        .span-row-2 {
+            grid-row: span 2
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align:center">Row span 2 — Example</h2>
+    <div class="grid">
+        <div class="cell a">1</div>
+        <div class="cell b span-row-2">2 (span 2 rows)</div>
+        <div class="cell c">3</div>
+        <div class="cell d">4</div>
+        <div class="cell e">5</div>
+        <div class="cell f">6</div>
+    </div>
+</body>
+
+</html>
