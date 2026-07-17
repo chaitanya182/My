@@ -1,0 +1,151 @@
+apple.css
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background-color: black;
+}
+
+.logo img{
+    width: 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.hero{
+    height: 90%;
+    background: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text{
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.hero-text h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-text p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn1{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 35px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background-color: skyblue;
+}
+
+.btn2{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: brown;
+    color: white;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 60px;
+}
+
+.product.reverse{
+    flex-direction: row-reverse;
+}
+
+.product-text{
+    flex: 1;
+}
+
+.product-text h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.product-text h2{
+    font-size: 30px;
+    color: lightblue;
+    margin-bottom: 20px;
+}
+
+.product-text p{
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.product-image{
+    flex: 1;
+    text-align: center;
+}
+
+.product-image img{
+    width: 90%;
+    max-width: 500px;
+    transition: 0.5s;
+}
+
+.product-image img:hover{
+    transform: scale(1.08);
+}
